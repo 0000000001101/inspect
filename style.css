@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background: #0052cc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#url-form {
+  display: flex;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+#url-input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+#url-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #0052cc;
+  background: #0052cc;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#viewer {
+  flex: 1;
+  width: 100%;
+  border: none;
+}

@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
   <title>Webpage Inspector</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,23 +14,21 @@
     <h1>Webpage Inspector</h1>
   </header>
 
-  <main>
-    <form id="url-form">
-      <input
-        type="url"
-        id="url-input"
-        placeholder="Enter a URL (e.g. https://example.com)"
-        required
-      />
-      <button type="submit">Load</button>
-    </form>
+  <form id="url-form">
+    <input
+      type="url"
+      id="url-input"
+      placeholder="https://example.com"
+      required
+    >
+    <button type="submit">Load</button>
+  </form>
 
-    <iframe
-      id="viewer"
-      src=""
-      title="Webpage Viewer"
-    ></iframe>
-  </main>
+  <iframe
+    id="viewer"
+    src=""
+    title="Webpage Viewer"
+  ></iframe>
 
   <script src="script.js"></script>
 </body>
